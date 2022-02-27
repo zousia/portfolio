@@ -1,0 +1,341 @@
+/* global settings */
+
+/* no visibility for scrollbar */
+/* Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+/* IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+     /* Firefox */
+    -moz-scroll: none;
+}
+
+.global_graph_env {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(218, 218, 218);
+    background-image: radial-gradient(circle, #381c1c 10%, #2c2828 100%);
+}
+
+/* page index format */
+#page_accueil {
+    height: 100vh;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+/* titles design */
+.myTitleName {
+    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.myTitlePage {
+    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding: 0.5rem;
+}
+
+.mySubTitlePage {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-top: 2;
+    background-color: #2f2927;
+    color:#bd0909;
+    padding: 0.5rem;
+}
+
+/* navigation buttons */
+.myNavBtn {
+    color: rgb(179, 179, 179);
+}
+.myNavBtn:hover {
+    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+    color: rgb(255, 225, 225);
+}
+
+.bg-gradMyNavBtnAct {
+    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+}
+
+.text-color-myNavBtnAct {
+    color: #d2c3a9;
+}
+
+/* background pages */
+#page_1, #page_2, #page3, #projet_viverrin_details, #projet_registre_details, #projet_routage2_details {
+    background-image: radial-gradient(circle, #990707 10%, #2c2828 100%);
+}
+
+.cardy {
+    margin: 2rem;
+    background-color: white;
+}
+
+/* card design for project tease */
+.card {
+    background-color: transparent;
+    height: 100%;
+}
+.card:hover {
+    /* background-color: #460909; */
+    background-image:  linear-gradient(90deg,  #460909 2%, #381c1c 98%, #2c2828 100%);
+    opacity: 0.8;
+}
+.card img {
+    background: transparent;
+    align-self: center;
+    width: auto;
+    height: 200;
+}
+
+/* colors */
+.bg-color-d {
+    background-color: #2f2927;
+}
+.bg-color-m1 {
+    background-color: inherit;
+}
+.text-color-l1 {
+    color: #d2c3a9;
+}
+.text-color-l2 {
+    color: #cfcdc6;
+}
+.text-color-m2 {
+    color: #990707;
+}
+.text-color-d {
+    color:  #2f2927;
+}
+.text-color-d2 {
+    color: rgb(204, 103, 36);
+}
+
+/* links */
+a {
+    color: #990707;
+}
+a:any-link {
+    text-decoration: none;
+    color: #990707;
+}
+a:any-link:hover {
+    color: #d2c3a9;
+}
+
+/* utils */
+.my_text-justify { text-align: justify; text-justify: inter-character; }
+
+/* design for images display */
+.myCarousel {
+    display: none;
+    min-width: 330px;
+    max-width: 560px;
+    min-height: 250px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+.navigation_image {
+    padding-top: 1.5rem;
+}
+
+/* navigation in carrousel */
+.previous {
+    display: none;
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 1rem;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.previous:hover {
+    color: #d2c3a9;
+}
+.nexto {
+    display: none;
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 1rem;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nexto:hover {
+    color: #d2c3a9;
+}
+.total {
+    display: none;
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* animation pour carrousel */
+.transition {
+    animation: transition 1s ease-in-out;
+}
+
+@keyframes transition {
+    from {
+        background-image: #fa4002;
+        opacity: 15%;
+    }
+    to {
+        background-image: none;
+        opacity: 100%;
+    }
+}
+
+.transition2 {
+    animation: transition2 1s ease-in-out;
+}
+@keyframes transition2 {
+    from {
+        background-image: #2f2927;
+        opacity: 15%;
+    }
+    to {
+        background-image: none;
+        opacity: 100%;
+    }
+}
+
+.myThumbnail {
+    margin: auto;
+    background-color: #990707; 
+}
+
+.only_screen {
+    margin: auto;
+}
+
+/* .present_cards {
+    height: auto;
+} */
+/* media queries */
+@media screen and (min-width: 641px) and (max-width: 1400px) {
+    .myCarousel {
+        width: 70%;
+    }
+}
+
+/* @media screen and (min-width: 200px) and (max-width: 640px) { */
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    p {
+        font-size: 90%;
+    } 
+    #page_accueil {
+        font-size: 2.7rem;
+        font-weight: 100;
+    }
+    #small_gZ {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 50px;
+        max-width: 80px;
+    }
+    .card img {
+        height: 140px;
+    }
+    .myCarousel {
+        width: 80%;
+    }
+    .carroussel_images {
+        width: 100%;
+        margin: auto;
+    }
+    .previous {
+        display: none;
+        font-size: 120%;
+        margin-right: 50px;
+    }
+    .nexto {
+        display: none;
+        font-size: 120%;
+        margin-left: 50px;
+    }
+    .total {
+        display: none;
+        font-size: 120%;
+    }
+}
+
+/* print */
+@page {
+    size: A4;
+    margin-top: 1.5cm;
+    margin-bottom: 2cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+@media print {
+    .myTitleName {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 0rem;
+        margin-bottom: 0rem;
+    }
+    
+    .myTitlePage {
+        font-size: 1.5rem;
+        padding: 0rem;
+    }
+    
+    .mySubTitlePage {
+        font-size: 1.3rem;
+        margin-top: 0;
+        padding: 0rem;
+    }
+
+    .logo_only_screen {
+        display: none;
+        }
+    p {
+        margin: 0rem;
+        font-size: 90%;
+    }
+    img {
+        width:50%!important;
+        padding:0!important;
+        margin:auto!important;
+    }
+    .portrait {
+        width:15%!important;
+        padding:0!important;
+        margin:0!important;
+    }
+    .logo_projet {
+        width:8%!important;
+        padding:0!important;
+        margin:0!important;
+    }
+    .myNavBtn {
+        display: none;
+        }
+    .footer_only_screen {
+        display: none;
+        }
+    .only_screen {
+        display: none;
+    }
+}

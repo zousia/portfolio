@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="262.50537"
+   height="229.65431"
+   viewBox="0 0 69.454544 60.762704"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="logo-registre100.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="-134.657"
+     inkscape:cy="34.250324"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Calque 2"
+     style="display:none"
+     transform="translate(1.4268827,45.25747)">
+    <rect
+       style="fill:#ffffff;stroke-width:0.52916664;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect816"
+       width="28.045834"
+       height="28.24427"
+       x="-0.52916664"
+       y="-0.1984375" />
+  </g>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(10.41762,-6.825734)">
+    <path
+       style="fill:#666666;stroke:none;stroke-width:0.97353911;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 11.604215,64.942603 V 23.136304 c -1.547683,-9.79 -10.4427749,-3.862385 -18.3724453,0 0,0 -2.2580027,-8.043154 0,-10.523591 6.43378122,-7.0675777 27.2962103,0 27.2962103,0 V 28.326126 C 43.189623,2.8529278 59.263213,16.649432 55.960646,23.713024 49.784344,33.633796 49.325007,25.416683 42.010919,25.26105 34.696835,25.105437 20.52798,33.011275 20.52798,42.886242 l -0.262394,22.056361 z"
+       id="path851"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccscccsccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.325531"
+       y="38.405548"
+       id="text867"><tspan
+         sodipodi:role="line"
+         id="tspan865"
+         x="33.325531"
+         y="42.074039"
+         style="font-size:4.23333311px;stroke-width:0.26458332" /></text>
+  </g>
+</svg>
