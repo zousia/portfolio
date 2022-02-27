@@ -57,6 +57,7 @@ for (var btn of btnBackIndex) {
         console.log(`ACCUEIL target = ${event.target.id}`);
         // display accueil appropriate page design
         OnAccueilPage();
+        window.scrollTo(0, 0);
 
         activePage.style.display = "none";
         for (const [key, value] of Object.entries(NAVbtns)) {
