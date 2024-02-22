@@ -8,7 +8,7 @@
 /* IE, Edge and Firefox */
 * {
     -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none; 
+    scrollbar-width: none;
      /* Firefox */
     -moz-scroll: none;
 }
@@ -17,8 +17,9 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
-    color: rgb(218, 218, 218);
-    background-image: radial-gradient(circle, #381c1c 10%, #2c2828 100%);
+    color: #dadada;
+    /* background-image: radial-gradient(circle, #381c1c 10%, #2c2828 100%); */
+    background-image: radial-gradient(circle, #6b6b6b 10%, #bbafaf 100%);
 }
 
 /* page index format */
@@ -30,7 +31,8 @@
 
 /* titles design */
 .myTitleName {
-    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+    /* background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%); */
+    background-image:  linear-gradient(90deg, #929292 10%, #bbafaf 35%, #929292 100%);
     font-size: 2.5rem;
     font-weight: 100;
     padding: 0.5rem;
@@ -38,41 +40,51 @@
 }
 
 .myTitlePage {
-    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+    /* background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%); */
+    background-image:  linear-gradient(90deg, #929292 10%, #bbafaf 35%, #929292 100%);
     font-size: 2.5rem;
     font-weight: 100;
     padding: 0.5rem;
+    border-bottom: 1px solid #ffffff;
 }
 
 .mySubTitlePage {
     font-size: 1.4rem;
     font-weight: 300;
     margin-top: 2;
-    background-color: #2f2927;
-    color:#bd0909;
+    /* background-color: #2f2927; */
+    background-color: #ccb9b3;
+    color:#2c2525;
+    /* color:#bd0909; */
     padding: 0.5rem;
 }
 
 /* navigation buttons */
 .myNavBtn {
-    color: rgb(179, 179, 179);
+    /* color: rgb(179, 179, 179); */
+    color: #363636;
 }
 .myNavBtn:hover {
-    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
-    color: rgb(255, 225, 225);
+    /* background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%); */
+    /* color: rgb(255, 225, 225); */
+    background-image:  linear-gradient(90deg, #929292 10%, #bbafaf 35%, #929292 100%);
+    color: #363636;
 }
 
 .bg-gradMyNavBtnAct {
-    background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%);
+    /* background-image:  linear-gradient(90deg, #2c2828 0%, #381c1c 35%, #2c2828 100%); */
+    background-image:  linear-gradient(90deg, #929292 10%, #bbafaf 35%, #929292 100%);
 }
 
 .text-color-myNavBtnAct {
-    color: #d2c3a9;
+    /* color: #d2c3a9; */
+    color: #3a352e;
 }
 
 /* background pages */
 #page_1, #page_2, #page3, #projet_viverrin_details, #projet_registre_details, #projet_routage2_details {
-    background-image: radial-gradient(circle, #990707 10%, #2c2828 100%);
+    /* background-image: radial-gradient(circle, #990707 10%, #2c2828 100%); */
+    background-image: radial-gradient(circle, #6b6b6b 10%, #bbafaf 100%);
 }
 
 .cardy {
@@ -87,7 +99,8 @@
 }
 .card:hover {
     /* background-color: #460909; */
-    background-image:  linear-gradient(90deg,  #460909 2%, #381c1c 98%, #2c2828 100%);
+    /* background-image:  linear-gradient(90deg,  #460909 2%, #381c1c 98%, #2c2828 100%); */
+    background-image:  linear-gradient(90deg,  #6b6b6b 2%, #bbafaf 50%, #6b6b6b 100%);
     opacity: 0.8;
 }
 .card img {
@@ -99,37 +112,37 @@
 
 /* colors */
 .bg-color-d {
-    background-color: #2f2927;
+    background-color: #ccb9b3;
 }
 .bg-color-m1 {
     background-color: inherit;
 }
 .text-color-l1 {
-    color: #d2c3a9;
+    color: #3f3b33;
 }
 .text-color-l2 {
-    color: #cfcdc6;
+    color: #202020;
 }
 .text-color-m2 {
-    color: #990707;
+    color: #3b3b3b;
 }
 .text-color-d {
-    color:  #2f2927;
+    color: #6e6d6c;
 }
 .text-color-d2 {
-    color: rgb(204, 103, 36);
+    color: #000000;
 }
 
 /* links */
 a {
-    color: #990707;
+    color: #3f3838;
 }
 a:any-link {
     text-decoration: none;
-    color: #990707;
+    color: #332828;
 }
 a:any-link:hover {
-    color: #d2c3a9;
+    color: #000000;
 }
 
 /* utils */
@@ -164,7 +177,7 @@ a:any-link:hover {
     margin-bottom: 0;
 }
 .previous:hover {
-    color: #d2c3a9;
+    color: #000000;
 }
 .nexto {
     display: none;
@@ -176,7 +189,7 @@ a:any-link:hover {
     margin-bottom: 0;
 }
 .nexto:hover {
-    color: #d2c3a9;
+    color: #000000;
 }
 .total {
     display: none;
@@ -210,7 +223,7 @@ a:any-link:hover {
 }
 @keyframes transition2 {
     from {
-        background-image: #2f2927;
+        background-image: #ccb9b3;
         opacity: 15%;
     }
     to {
@@ -221,7 +234,7 @@ a:any-link:hover {
 
 .myThumbnail {
     margin: auto;
-    background-color: #990707; 
+    background-color: #a17b7b;
 }
 
 .only_screen {
@@ -238,7 +251,7 @@ a:any-link:hover {
 @media screen and (min-width: 200px) and (max-width: 767px) {
     p {
         font-size: 90%;
-    } 
+    }
     #page_accueil {
         font-size: 2.1rem;
         font-weight: 100;
@@ -252,12 +265,12 @@ a:any-link:hover {
         padding: 0.2rem;
         margin-bottom: 0.5rem;
     }
-    
+
     .myTitlePage {
         font-size: 1.5rem;
         padding: 0.2rem;
     }
-    
+
     .mySubTitlePage {
         font-size: 1.2rem;
         padding: 0.2rem;
@@ -321,12 +334,12 @@ a:any-link:hover {
         padding: 0rem;
         margin-bottom: 0rem;
     }
-    
+
     .myTitlePage {
         font-size: 1.5rem;
         padding: 0rem;
     }
-    
+
     .mySubTitlePage {
         font-size: 1.3rem;
         margin-top: 0;
